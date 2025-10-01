@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remote -->
+    <remote fetch="https://github.com/dopaemon" name="dopaemon" />
+    <remote fetch="https://git.mainlining.org/cupid-development" name="cupid-git" />
+    <remote fetch="https://github.com/cupid-development" name="cupid-github" />
+    <remote fetch="https://github.com/LineageOS" name="LineageOS" />
+    <remote fetch="https://github.com/TheMuppets" name="TheMuppets" />
+    <remote fetch="https://github.com/crdroidandroid" name="CrDroid" />
+
+    <!-- Xiaomi SM8450 common -->
+    <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="CrDroid" revision="16.0" />
+    <project name="hardware_dolby" path="hardware/dolby" remote="dopaemon" revision="15-ximi" />
+    <project name="android_device_xiaomi_sm8450-common" path="device/xiaomi/sm8450-common" remote="dopaemon" revision="lineage-23.0" />
+    <project name="proprietary_vendor_xiaomi_sm8450-common" path="vendor/xiaomi/sm8450-common" remote="dopaemon" revision="lineage-23.0" />
+    <project name="proprietary_vendor_xiaomi_miuicamera-cupid" path="vendor/xiaomi/miuicamera-cupid" remote="cupid-git" revision="lineage-22.2" />
+    <project name="proprietary_device_xiaomi_miuicamera-cupid" path="device/xiaomi/miuicamera-cupid" remote="cupid-github" revision="lineage-22.2" />
+
+    <!-- Xiaomi 12 -->
+    <project name="android_device_xiaomi_cupid" path="device/xiaomi/cupid" remote="dopaemon" revision="lineage-23.0" />
+    <project name="proprietary_vendor_xiaomi_cupid" path="vendor/xiaomi/cupid" remote="TheMuppets" revision="lineage-23.0" />
+
+    <!-- Xiaomi 12 Pro -->
+    <project name="android_device_xiaomi_zeus" path="device/xiaomi/zeus" remote="dopaemon" revision="lineage-23.0" />
+    <project name="proprietary_vendor_xiaomi_zeus" path="vendor/xiaomi/zeus" remote="TheMuppets" revision="lineage-23.0" />
+
+    <!-- Xiaomi 12S -->
+    <project name="android_device_xiaomi_mayfly" path="device/xiaomi/mayfly" remote="dopaemon" revision="lineage-23.0" />
+    <project name="proprietary_vendor_xiaomi_mayfly" path="vendor/xiaomi/mayfly" remote="TheMuppets" revision="lineage-23.0" />
+
+    <!-- Xiaomi 12S Pro -->
+    <project name="android_device_xiaomi_unicorn" path="device/xiaomi/unicorn" remote="dopaemon" revision="lineage-23.0" />
+    <project name="proprietary_vendor_xiaomi_unicorn" path="vendor/xiaomi/unicorn" remote="TheMuppets" revision="lineage-23.0" />
+
+    <!-- Kernel -->
+    <project name="android_kernel_xiaomi_sm8450-devicetrees" path="kernel/xiaomi/sm8450-devicetrees" remote="LineageOS" revision="lineage-23.0" />
+    <project name="android_kernel_xiaomi_sm8450-modules" path="kernel/xiaomi/sm8450-modules" remote="LineageOS" revision="lineage-23.0" />
+    <project name="android_kernel_xiaomi_common" path="kernel/xiaomi/sm8450" remote="dopaemon" revision="lindroid" />
+
+</manifest>
