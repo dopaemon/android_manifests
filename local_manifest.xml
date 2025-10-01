@@ -14,7 +14,7 @@
     <project name="android_device_xiaomi_sm8450-common" path="device/xiaomi/sm8450-common" remote="dopaemon" revision="lineage-23.0" />
     <project name="proprietary_vendor_xiaomi_sm8450-common" path="vendor/xiaomi/sm8450-common" remote="dopaemon" revision="lineage-23.0" />
     <project name="proprietary_vendor_xiaomi_miuicamera-cupid" path="vendor/xiaomi/miuicamera-cupid" remote="cupid-git" revision="lineage-22.2" />
-    <project name="proprietary_device_xiaomi_miuicamera-cupid" path="device/xiaomi/miuicamera-cupid" remote="cupid-github" revision="lineage-22.2" />
+    <project name="android_device_xiaomi_miuicamera-cupid" path="device/xiaomi/miuicamera-cupid" remote="cupid-github" revision="lineage-22.2" />
 
     <!-- Xiaomi 12 -->
     <project name="android_device_xiaomi_cupid" path="device/xiaomi/cupid" remote="dopaemon" revision="lineage-23.0" />
@@ -37,8 +37,8 @@
     <project name="proprietary_vendor_xiaomi_diting" path="vendor/xiaomi/diting" remote="TheMuppets" revision="lineage-23.0" />
     
     <!-- Kernel -->
-    <project name="android_kernel_xiaomi_sm8450-devicetrees" path="kernel/xiaomi/sm8450-devicetrees" remote="LineageOS" revision="lineage-23.0" />
-    <project name="android_kernel_xiaomi_sm8450-modules" path="kernel/xiaomi/sm8450-modules" remote="LineageOS" revision="lineage-23.0" />
+    <project name="android_kernel_xiaomi_sm8450-devicetrees" path="kernel/xiaomi/sm8450-devicetrees" remote="LineageOS" revision="lineage-22.2" />
+    <project name="android_kernel_xiaomi_sm8450-modules" path="kernel/xiaomi/sm8450-modules" remote="LineageOS" revision="lineage-22.2" />
     <project name="android_kernel_xiaomi_common" path="kernel/xiaomi/sm8450" remote="dopaemon" revision="lindroid" />
 
 </manifest>
