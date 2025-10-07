@@ -17,23 +17,23 @@
     <project sync-s="true" name="android_device_xiaomi_miuicamera-cupid" path="device/xiaomi/miuicamera-cupid" remote="cupid-github" revision="lineage-22.2" />
 
     <!-- Xiaomi 12 -->
-    <project sync-s="true" name="android_device_xiaomi_cupid" path="device/xiaomi/cupid" remote="dopaemon" revision="lunaris-16" />
+    <project sync-s="true" name="android_device_xiaomi_cupid" path="device/xiaomi/cupid" remote="dopaemon" revision="lineage-23.0" />
     <project sync-s="true" name="proprietary_vendor_xiaomi_cupid" path="vendor/xiaomi/cupid" remote="TheMuppets" revision="lineage-23.0" />
 
     <!-- Xiaomi 12 Pro -->
-    <project sync-s="true" name="android_device_xiaomi_zeus" path="device/xiaomi/zeus" remote="dopaemon" revision="lunaris-16" />
+    <project sync-s="true" name="android_device_xiaomi_zeus" path="device/xiaomi/zeus" remote="dopaemon" revision="lineage-23.0" />
     <project sync-s="true" name="proprietary_vendor_xiaomi_zeus" path="vendor/xiaomi/zeus" remote="TheMuppets" revision="lineage-23.0" />
 
     <!-- Xiaomi 12S -->
-    <project sync-s="true" name="android_device_xiaomi_mayfly" path="device/xiaomi/mayfly" remote="dopaemon" revision="lunaris-16" />
+    <project sync-s="true" name="android_device_xiaomi_mayfly" path="device/xiaomi/mayfly" remote="dopaemon" revision="lineage-23.0" />
     <project sync-s="true" name="proprietary_vendor_xiaomi_mayfly" path="vendor/xiaomi/mayfly" remote="TheMuppets" revision="lineage-23.0" />
 
     <!-- Xiaomi 12S Pro -->
-    <project sync-s="true" name="android_device_xiaomi_unicorn" path="device/xiaomi/unicorn" remote="dopaemon" revision="lunaris-16" />
+    <project sync-s="true" name="android_device_xiaomi_unicorn" path="device/xiaomi/unicorn" remote="dopaemon" revision="lineage-23.0" />
     <project sync-s="true" name="proprietary_vendor_xiaomi_unicorn" path="vendor/xiaomi/unicorn" remote="TheMuppets" revision="lineage-23.0" />
 
      <!-- Xiaomi 12T Pro -->
-    <project sync-s="true" name="android_device_xiaomi_diting" path="device/xiaomi/diting" remote="dopaemon" revision="lunaris-16" />
+    <project sync-s="true" name="android_device_xiaomi_diting" path="device/xiaomi/diting" remote="dopaemon" revision="lineage-23.0" />
     <project sync-s="true" name="proprietary_vendor_xiaomi_diting" path="vendor/xiaomi/diting" remote="TheMuppets" revision="lineage-23.0" />
     
     <!-- Kernel -->
