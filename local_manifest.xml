@@ -9,7 +9,7 @@
     <remote fetch="https://github.com/crdroidandroid" name="CrDroid" />
 
     <!-- Xiaomi SM8450 common -->
-    <project sync-s="true" name="android_hardware_xiaomi" path="hardware/xiaomi" remote="CrDroid" revision="16.0" />
+    <!-- <project sync-s="true" name="android_hardware_xiaomi" path="hardware/xiaomi" remote="CrDroid" revision="16.0" /> -->
     <project sync-s="true" name="hardware_dolby" path="hardware/dolby" remote="dopaemon" revision="15-ximi" />
     <project sync-s="true" name="android_device_xiaomi_sm8450-common" path="device/xiaomi/sm8450-common" remote="dopaemon" revision="voltage-16" />
     <project sync-s="true" name="proprietary_vendor_xiaomi_sm8450-common" path="vendor/xiaomi/sm8450-common" remote="dopaemon" revision="LOS" />
