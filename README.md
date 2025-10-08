@@ -2,5 +2,5 @@
 git clone -b rising-16 https://github.com/dopaemon/android_manifests.git .repo/local_manifests
 ```
 ```bash
-repo sync -c --force-sync --no-clone-bundle --no-tags --fetch-submodules -j$(nproc --all)
+repo sync -c --force-sync --no-clone-bundle --no-tags -j$(nproc --all)
 ```
