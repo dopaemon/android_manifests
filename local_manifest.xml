@@ -11,11 +11,11 @@
 
     <!-- Google Pixel 4 -->
     <project sync-s="true" name="android_device_google_flame" path="device/google/flame" remote="LineageOS" revision="lineage-23.0" />
-    <project sync-s="true" name="android_device_google_flame" path="vendor/google/flame" remote="dopaemon" revision="lunaris-16" />
+    <project sync-s="true" name="proprietary_vendor_google_flame" path="vendor/google/flame" remote="dopaemon" revision="lunaris-16" />
 
     <!-- Google Pixel 4XL -->
     <project sync-s="true" name="android_device_google_coral" path="device/google/coral" remote="dopaemon" revision="lunaris-16" />
-    <project sync-s="true" name="android_device_google_coral" path="vendor/google/coral" remote="dopaemon" revision="lunaris-16" />
+    <project sync-s="true" name="proprietary_vendor_google_coral" path="vendor/google/coral" remote="dopaemon" revision="lunaris-16" />
     
     <!-- Kernel -->
     <project sync-s="true" name="android_kernel_google_msm-4.14" path="kernel/google/msm-4.14" remote="dopaemon" revision="Rebase" />
