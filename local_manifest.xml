@@ -10,7 +10,7 @@
     <project sync-s="true" name="android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="LineageOS" revision="lineage-23.0" />
 
     <!-- Google Pixel 4 -->
-    <project sync-s="true" name="android_device_google_flame" path="device/google/flame" remote="dopaemon" revision="lineage-23.0" />
+    <project sync-s="true" name="android_device_google_flame" path="device/google/flame" remote="LineageOS" revision="lineage-23.0" />
     <project sync-s="true" name="android_device_google_flame" path="vendor/google/flame" remote="dopaemon" revision="lunaris-16" />
 
     <!-- Google Pixel 4XL -->
