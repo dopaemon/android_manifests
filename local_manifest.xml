@@ -2,8 +2,8 @@
 <manifest>
     <!-- Remote -->
     <remote fetch="https://github.com/dopaemon" name="dopaemon" />
-    <!-- <remote fetch="https://codeberg.org/dopaemon" name="dopaemon-cb" /> -->
-    <remote fetch="https://git.mainlining.org/cupid-development" name="cupid-git" />
+    <remote fetch="https://codeberg.org/dopaemon" name="dopaemon-cb" />
+    <!-- <remote fetch="https://git.mainlining.org/cupid-development" name="cupid-git" /> -->
     <remote fetch="https://github.com/cupid-development" name="cupid-github" />
     <remote fetch="https://github.com/LineageOS" name="LineageOS" />
     <remote fetch="https://github.com/TheMuppets" name="TheMuppets" />
