@@ -6,17 +6,17 @@
     <remote fetch="https://github.com/TheMuppets" name="TheMuppets" />
 
     <!-- Xiaomi SM8550 common -->
-    <project sync-s="true" name="android_hardware_xiaomi"                  path="hardware/xiaomi"                 remote="LineageOS"    revision="lineage-23.0" />
-    <project sync-s="true" name="android_device_xiaomi_sm8550-common"      path="device/xiaomi/sm8550-common"     remote="dopaemon"     revision="lineage-23.0" />
-    <project sync-s="true" name="proprietary_vendor_xiaomi_sm8550-common"  path="vendor/xiaomi/sm8550-common"     remote="TheMuppets"   revision="lineage-23.0" />
+    <project sync-s="true" name="android_hardware_xiaomi"                  path="hardware/xiaomi"                  remote="LineageOS"    revision="lineage-23.0" />
+    <project sync-s="true" name="android_device_xiaomi_sm8550-common"      path="device/xiaomi/sm8550-common"      remote="dopaemon"     revision="lineage-23.0" />
+    <project sync-s="true" name="proprietary_vendor_xiaomi_sm8550-common"  path="vendor/xiaomi/sm8550-common"      remote="TheMuppets"   revision="lineage-23.0" />
 
     <!-- Xiaomi K60 Pro -->
-    <project sync-s="true" name="android_device_xiaomi_socrates"           path="device/xiaomi/socrates"           remote="dopaemon"    revision="lunaris-16"   />
-    <project sync-s="true" name="proprietary_vendor_xiaomi_socrates"       path="vendor/xiaomi/socrates"           remote="TheMuppets"  revision="lineage-23.0" />
+    <project sync-s="true" name="android_device_xiaomi_socrates"           path="device/xiaomi/socrates"           remote="dopaemon"     revision="lunaris-16"   />
+    <project sync-s="true" name="proprietary_vendor_xiaomi_socrates"       path="vendor/xiaomi/socrates"           remote="TheMuppets"   revision="lineage-23.0" />
     
     <!-- Kernel -->
-    <project sync-s="true" name="android_kernel_xiaomi_sm8550-devicetrees" path="kernel/xiaomi/sm8550-devicetrees" remote="LineageOS"   revision="lineage-23.0" />
-    <project sync-s="true" name="android_kernel_xiaomi_sm8550-modules"     path="kernel/xiaomi/sm8550-modules"     remote="LineageOS"   revision="lineage-23.0" />
-    <project sync-s="true" name="android_kernel_xiaomi_sm8550"             path="kernel/xiaomi/sm8550"             remote="LineageOS"   revision="lineage-23.0" />
+    <project sync-s="true" name="android_kernel_xiaomi_sm8550-devicetrees" path="kernel/xiaomi/sm8550-devicetrees" remote="LineageOS"    revision="lineage-23.0" />
+    <project sync-s="true" name="android_kernel_xiaomi_sm8550-modules"     path="kernel/xiaomi/sm8550-modules"     remote="LineageOS"    revision="lineage-23.0" />
+    <project sync-s="true" name="android_kernel_xiaomi_sm8550"             path="kernel/xiaomi/sm8550"             remote="LineageOS"    revision="lineage-23.0" />
 
 </manifest>
