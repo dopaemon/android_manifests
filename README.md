@@ -1,8 +1,8 @@
 ```bash
-repo init -u https://github.com/Lunaris-AOSP/android -b 16 --git-lfs --depth=1
+repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b 16 -g default,-mips,-darwin,-notdefault --depth=1
 ```
 ```bash
-git clone -b lunaris-16 https://github.com/dopaemon/android_manifests.git .repo/local_manifests
+git clone -b infinity-16 https://github.com/dopaemon/android_manifests.git .repo/local_manifests
 ```
 ```bash
 repo sync -c --force-sync --no-clone-bundle --no-tags -j$(nproc --all)
