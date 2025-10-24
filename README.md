@@ -1,4 +1,7 @@
 ```bash
+repo init -u https://github.com/VoltageOS/manifest.git -b 16 --git-lfs --depth=1
+```
+```bash
 git clone -b voltage-16 https://github.com/dopaemon/android_manifests.git .repo/local_manifests
 ```
 ```bash
