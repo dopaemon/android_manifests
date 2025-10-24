@@ -1,4 +1,7 @@
 ```bash
+repo init -u https://github.com/RisingOS-Revived/android -b sixteen --git-lfs --depth=1
+```
+```bash
 git clone -b rising-16 https://github.com/dopaemon/android_manifests.git .repo/local_manifests
 ```
 ```bash
