@@ -1,5 +1,5 @@
 ```bash
-repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16 --git-lfs --depth=1
+repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16 --git-lfs
 ```
 ```bash
 git clone -b derpfest-16 https://github.com/dopaemon/android_manifests.git .repo/local_manifests
