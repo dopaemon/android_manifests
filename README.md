@@ -1,5 +1,5 @@
 ```bash
-repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b 16 -g default,-mips,-darwin,-notdefault --depth=1
+repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b 16 -g default,-mips,-darwin,-notdefault
 ```
 ```bash
 git clone -b infinity-16 https://github.com/dopaemon/android_manifests.git .repo/local_manifests
