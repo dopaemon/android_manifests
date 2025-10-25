@@ -1,5 +1,5 @@
 ```bash
-repo init -u https://github.com/CherishOS/android_manifest.git -b sixteen --git-lfs --depth=1
+repo init -u https://github.com/CherishOS/android_manifest.git -b sixteen --git-lfs
 ```
 ```bash
 git clone -b cherish-16 https://github.com/dopaemon/android_manifests.git .repo/local_manifests
