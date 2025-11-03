@@ -2,6 +2,7 @@
 <manifest>
     <!-- Remote -->
     <remote fetch="https://github.com/dopaemon" name="dopaemon" />
+    <remote fetch="https://codeberg.org/dopaemon" name="dopa-cb" />
     <remote fetch="https://git.mainlining.org/cupid-development" name="cupid-git" />
     <remote fetch="https://github.com/cupid-development" name="cupid-github" />
     <remote fetch="https://github.com/LineageOS" name="LineageOS" />
@@ -35,10 +36,14 @@
      <!-- Xiaomi 12T Pro -->
     <project sync-s="true" name="android_device_xiaomi_diting" path="device/xiaomi/diting" remote="dopaemon" revision="lineage-23.0" />
     <project sync-s="true" name="proprietary_vendor_xiaomi_diting" path="vendor/xiaomi/diting" remote="TheMuppets" revision="lineage-23.0" />
+
+    <!-- Xiaomi Poco F4 GT -->
+    <project sync-s="true" name="android_device_xiaomi_ingres" path="device/xiaomi/ingres" remote="dopaemon" revision="lineage-23.0" />
+    <project sync-s="true" name="proprietary_vendor_xiaomi_ingres" path="vendor/xiaomi/ingres" remote="dopa-cb" revision="lineage-23.0" />
     
     <!-- Kernel -->
-    <project sync-s="true" name="android_kernel_xiaomi_sm8450-devicetrees" path="kernel/xiaomi/sm8450-devicetrees" remote="LineageOS" revision="lineage-22.2" />
-    <project sync-s="true" name="android_kernel_xiaomi_sm8450-modules" path="kernel/xiaomi/sm8450-modules" remote="LineageOS" revision="lineage-22.2" />
+    <project sync-s="true" name="android_kernel_xiaomi_sm8450-devicetrees" path="kernel/xiaomi/sm8450-devicetrees" remote="dopaemon" revision="lineage-23.0" />
+    <project sync-s="true" name="android_kernel_xiaomi_sm8450-modules" path="kernel/xiaomi/sm8450-modules" remote="LineageOS" revision="lineage-23.0" />
     <project sync-s="true" name="android_kernel_xiaomi_common" path="kernel/xiaomi/sm8450" remote="dopaemon" revision="Rebase" />
 
 </manifest>
