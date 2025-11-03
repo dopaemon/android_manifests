@@ -3,6 +3,7 @@
     <!-- Remote -->
     <remote fetch="https://github.com/dopaemon" name="dopaemon" />
     <remote fetch="https://codeberg.org/dopaemon" name="dopa-cb" />
+    <remote fetch="https://github.com/Ingres-Centre" name="ingres" />
     <remote fetch="https://git.mainlining.org/cupid-development" name="cupid-git" />
     <remote fetch="https://github.com/cupid-development" name="cupid-github" />
     <remote fetch="https://github.com/LineageOS" name="LineageOS" />
@@ -34,6 +35,7 @@
     <project sync-s="true" name="proprietary_vendor_xiaomi_unicorn" path="vendor/xiaomi/unicorn" remote="TheMuppets" revision="lineage-23.0" />
 
      <!-- Xiaomi 12T Pro -->
+    <project sync-s="true" name="android_vendor_xiaomi_gamekey" path="vendor/xiaomi/gamekey" remote="ingres" revision="master" />
     <project sync-s="true" name="android_device_xiaomi_diting" path="device/xiaomi/diting" remote="dopaemon" revision="lineage-23.0" />
     <project sync-s="true" name="proprietary_vendor_xiaomi_diting" path="vendor/xiaomi/diting" remote="TheMuppets" revision="lineage-23.0" />
 
