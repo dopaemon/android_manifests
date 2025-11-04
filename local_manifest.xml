@@ -5,6 +5,7 @@
     <remote fetch="https://codeberg.org/dopaemon" name="dopaemon-cb" />
     <remote fetch="https://git.mainlining.org/cupid-development" name="cupid-git" />
     <remote fetch="https://github.com/cupid-development" name="cupid-github" />
+    <remote fetch="https://github.com/Ingres-Centre" name="ingres" />
     <remote fetch="https://github.com/LineageOS" name="LineageOS" />
     <remote fetch="https://github.com/TheMuppets" name="TheMuppets" />
     <remote fetch="https://github.com/crdroidandroid" name="CrDroid" />
