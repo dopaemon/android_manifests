@@ -40,7 +40,7 @@
 
     <!-- Xiaomi Poco F4 GT -->
     <project sync-s="true" name="android_vendor_xiaomi_gamekey" path="vendor/xiaomi/gamekey" remote="ingres" revision="master" />
-    <project sync-s="true" name="android_device_xiaomi_ingres" path="device/xiaomi/ingres" remote="dopaemon" revision="lunaris-16" />
+    <project sync-s="true" name="android_device_xiaomi_ingres" path="device/xiaomi/ingres" remote="dopaemon" revision="infinity-16" />
     <project sync-s="true" name="proprietary_vendor_xiaomi_ingres" path="vendor/xiaomi/ingres" remote="dopaemon-cb" revision="lineage-23.0" />
     
     <!-- Kernel -->
