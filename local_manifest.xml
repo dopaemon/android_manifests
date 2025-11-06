@@ -44,7 +44,7 @@
     
     <!-- Kernel -->
     <project sync-s="true" name="android_kernel_xiaomi_sm8450-devicetrees" path="kernel/xiaomi/sm8450-devicetrees" remote="dopaemon" revision="lineage-23.0" />
-    <project sync-s="true" name="android_kernel_xiaomi_sm8450-modules" path="kernel/xiaomi/sm8450-modules" remote="dopaemon" revision="lineage-22.2" />
+    <project sync-s="true" name="android_kernel_xiaomi_sm8450-modules" path="kernel/xiaomi/sm8450-modules" remote="dopaemon" revision="lineage-23.0" />
     <project sync-s="true" name="android_kernel_xiaomi_common" path="kernel/xiaomi/sm8450" remote="dopaemon" revision="Rebase" />
 
 </manifest>
