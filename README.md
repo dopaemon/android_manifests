@@ -2,7 +2,7 @@
 repo init -u https://github.com/Project-Mist-OS/manifest -b bp2a --git-lfs
 ```
 ```bash
-git clone -b lunaris-16 https://github.com/dopaemon/android_manifests.git .repo/local_manifests
+git clone -b mist-16 https://github.com/dopaemon/android_manifests.git .repo/local_manifests
 ```
 ```bash
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
