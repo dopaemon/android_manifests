@@ -1,4 +1,7 @@
 ```bash
+mkdir -p ~/LunarisAOSP && cd ~/LunarisAOSP
+```
+```bash
 repo init -u https://github.com/Lunaris-AOSP/android -b 16.2 --git-lfs
 ```
 ```bash
