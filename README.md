@@ -1,5 +1,5 @@
 ```bash
-repo init -u https://github.com/Lunaris-AOSP/android -b 16 --git-lfs
+repo init -u https://github.com/Lunaris-AOSP/android -b 16.2 --git-lfs
 ```
 ```bash
 git clone -b lunaris-16 https://github.com/dopaemon/android_manifests.git .repo/local_manifests
